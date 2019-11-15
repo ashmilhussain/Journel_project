@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Login here</title>
+
+{% load static %}
+<link href="{% static 'css/login.css' %}" rel="stylesheet">
+
+<body>
+
+<h1> Welcome to my diary app!</h1>
+<p>
+Login with the following detail, Write and keep your memories securely.
+We offer interesting functionalities for your valuable records, keep write your stories every day, Upload fascinating images and favourite videos or memorable sound clips to your digital diary.
+</p>
+Login here!
+<form>
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <button type="button" class="cancelbtn"> New Registration </button><br>
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</body>
+</html>

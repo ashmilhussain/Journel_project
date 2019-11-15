@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Write to day!</title>
+{% load static %}
+<link rel="stylesheet" href="{% static './style.css' %}">
+<body>
+
+
+<img src="{% static './images/logo.png' %}" class="image" alt="logo"></img>
+<h1 class="logo-text">My Diary App</h1>
+<h2> Write todays memories, keep safely, share if you would like! </h2>
+<div class="image-block">
+<img src='./diary.jpg' class="open-diary" alt='Picture of a open diary'>
+</div>
+
+<img src='', alt='Your picture'>
+<p> You have lived in the world about 25 years2 months 3 week 13 hours 4 minute and 10 second! </p>
+<h2> {{ item.name }} </h2>
+<button> My profile </button>
+<button> my diary </button>
+<button> Account book </button>
+<button> Activities book </button>
+<button> notification </button>
+<button> logout </button>
+<br></br>
+<p> Welcome dear paul, Go here with your words! Write your memmories, search your previous stories, put the Rating for the day, Share if you want, It may inspires you or others! </p>
+<textarea rows="4" cols="25">
+Write to days story here!
+</textarea>
+<br>
+Rate your day!
+<input type="radio" name="Put the rating for your day!" value="5p"> 5 points <br>
+<input type="radio" name="Put the rating for your day!" value="4p"> 4 Points <br>
+<input type="radio" name="Put the rating for your day!" value="3p"> 3 points <br>
+<input type="radio" name="Put the rating for your day!" value="2p"> 2 points <br>
+<input type="radio" name="Put the rating for your day!" value="1p"> 1 points <br>
+
+<button> upload image, video, audio </button>
+<button> Update my diary </button>
+<button> Read my past stories</button>
+<button> My dreem box </button>
+<button> Share my story </button>
+<br><br>
+
+<div class="footer">
+<ul>
+<li>Privacy Policy</li>
+<li>Terms and Conditions</li>
+<li>About Us</li>
+<li>Contact Us</li>
+</ul>
+</div>
+</body>
+</html>

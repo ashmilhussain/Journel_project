@@ -1,0 +1,29 @@
+p{
+	font-size: 22px;
+}
+
+.image{
+	display: inline-block;
+	height: 40px;
+}
+.logo-text{
+	display: inline-block;
+	padding-top: 0px;
+	padding-left: 5px;
+}
+
+.open-diary{
+	width: 600px;
+	margin-left:auto;
+	margin=right: auto;
+}
+.footer{
+	background: #000000;
+	margin: 0;
+}
+.footer > ul{
+	padding: 20px;
+}
+.footer > ul > li{
+	color: #ffffff;
+}
