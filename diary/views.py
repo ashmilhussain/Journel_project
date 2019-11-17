@@ -5,4 +5,4 @@ def diary(request):
 	return render(request, 'journel.html',{})
 
 def login(request):
-	return render(request, login.html,{})
+	return render(request, 'login.html',{})

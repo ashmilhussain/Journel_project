@@ -6,7 +6,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('myapp/', include('myapp.urls')),
     path('diary/', include('diary.urls')),
-    url('login/', views.login),
+#    url('login/', views.login),
+    path('login/', include('login.urls')),
 ]
 
 """

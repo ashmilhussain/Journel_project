@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'myapp',
     'diary',
     'finance',
+    'login',
 ]
 
 MIDDLEWARE = [
