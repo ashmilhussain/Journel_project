@@ -16,10 +16,18 @@
 </div>
 
 <img src="{% static 'images/nibin.jpg'%}"  alt='Your picture'>
-<p> You have lived in the world about 25 years2 months 3 week 13 hours 4 minute and 10 second! </p>
-<h2> {{ item.name }} </h2>
-<button> My profile </button>
-<button onclick="location.href='{% url 'login' %}'"my diary </button>
+
+<h2> {{ items.name }} </h2>
+
+<p>Nibin, Your total life time as of now is
+{{ printDob.year }} Years 
+{{ printDob.month }} months
+ {{ printDob.hour}} Hours and 
+{{ printDob.second}} seconds!
+</p>
+
+<a href="/myapp/profile"><button> my profile </button></a>
+<a href="/diary/diary"><button>my diary </button></a>
 <button> Account book </button>
 <button> Activities book </button>
 <button> notification </button>
